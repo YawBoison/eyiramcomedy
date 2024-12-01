@@ -1,0 +1,222 @@
+* {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(113, 113, 113);
+  border-radius: 0 0 1rem 1rem;
+}
+nav img {
+  width: 5rem;
+  margin: 0 1rem;
+}
+nav a {
+  color: beige;
+  margin: 0 1rem;
+  position: relative;
+}
+nav a:hover {
+  color: rgb(206, 206, 175);
+}
+nav a::after {
+  content: "";
+  width: 0;
+  position: absolute;
+  background-color: rgb(95, 93, 93);
+  height: 0.3rem;
+  left: 0;
+  bottom: -0.5rem;
+  transition: 0.3s;
+}
+nav a:hover::after {
+  width: 100%;
+}
+#eyiramPortrait img {
+  width: 30rem;
+  border-radius: 15rem;
+}
+#SOP {
+  margin: 0 7rem;
+}
+#mainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto;
+}
+#SOP h1 {
+  font-size: 4rem;
+}
+#SOP h1,
+h2 {
+  margin: 1rem;
+}
+#socials img {
+  width: 3rem;
+  margin: 0 1rem;
+}
+
+#reviews img {
+  width: 24rem;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(169, 166, 166);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+#SOP button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  background-color: rgb(163, 152, 87);
+  color: white;
+  transition: 1s;
+}
+#SOP button:hover {
+  background-color: rgb(112, 104, 59);
+}
+#clientLogo img {
+  width: 9rem;
+}
+#clientLogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#formReview,
+#formSignup,
+#formLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 60rem;
+}
+
+#formReview {
+  margin: 2rem auto;
+}
+
+#formSignup {
+  margin: 2rem auto;
+}
+#formLogin {
+  margin: 4.5rem auto;
+}
+form {
+  background-color: rgb(177, 200, 221);
+  padding: 5rem;
+  border-radius: 4rem 0;
+}
+#formPage label,
+#signupFormPage label,
+#loginFormPage label {
+  color: rgb(109, 102, 102);
+}
+#formPage input,
+#signupFormPage input,
+#loginFormPage input,
+#signupGender select {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  width: 20rem;
+  border: none;
+  padding: 0.4rem;
+}
+#contactSubmitBtn,
+#signupSubmitBtn,
+#loginSubmitBtn {
+  background-color: rgb(153, 146, 102);
+  border: none;
+  padding: 0.8rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  transition: 1s;
+}
+#contactSubmitBtn:hover,
+#signupSubmitBtn:hover,
+#loginSubmitBtn:hover {
+  background-color: rgb(112, 104, 59);
+}
+#formMessage {
+  height: 5rem;
+}
+#shopPage img,
+#akomapaShirtPayment img {
+  width: 20rem;
+}
+#shopPage,
+#paymentPage {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem auto;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+#shopPage section,
+#akomapaShirtPayment section {
+  background-color: rgb(247, 247, 247);
+  padding: 1.4rem;
+  border-radius: 2rem;
+}
+#shopPageAddToCart,
+#paymentBtn {
+  border: none;
+  background-color: rgb(153, 146, 102);
+  padding: 1rem 4rem;
+  margin-top: 1rem;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+}
+#shopPagebtn button,
+#paymentBtn button {
+  border: none;
+  font-size: 1.2rem;
+  transition: 0.6s;
+}
+#shopPageAddToCart:hover,
+#paymentBtn:hover {
+  background-color: rgb(112, 104, 59);
+}
+#shopPagebtn button:hover {
+  color: white;
+  background-color: black;
+}
+#shopPagebtn button:focus {
+  background-color: black;
+  color: white;
+}
+#navBtn {
+  margin: 0 1rem;
+  border: none;
+}
+#navBtn button {
+  padding: 0.3rem 1rem;
+  color: rgb(81, 80, 79);
+}
+#signupImg img,
+#formLoginPortrait img {
+  width: 25rem;
+  border-radius: 4rem;
+}
+#loginPasswordForgotten {
+  text-decoration: underline;
+}
